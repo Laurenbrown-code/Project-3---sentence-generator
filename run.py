@@ -25,4 +25,4 @@ randomaction = random.choice(action)
 
 print(randomtime + " there were some " + randompeople + randomplaces)
 print(randomaction + randomsports + " against " + randomanimals)
-print(f"Can you believe it {user_name}! anyway i'll catch you later,bye!")
+print(f"Can you believe it {user_name}!")
