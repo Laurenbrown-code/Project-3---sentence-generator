@@ -39,7 +39,7 @@ sec_senten = input(f"Can i tell you something else {user_name}, yes or no?\n")
 if sec_senten == "yes":
     print("Great!")
     rando_sentence()
-    print(f"That surprised me, thanks for chatting, {user_name} bye!")
+    print(f"That surprised me, thanks for chatting {user_name} bye!")
 elif sec_senten == "no":
     print(f"ok {user_name} i'll catch you later ")
 else:
