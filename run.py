@@ -23,6 +23,25 @@ randomaction = random.choice(action)
 
 # The code below will print out the sentence
 
-print(randomtime + " there were some " + randompeople + randomplaces)
-print(randomaction + randomsports + " against " + randomanimals)
+
+def rando_sentence():
+    print(randomtime + " there were some " + randompeople + randomplaces)
+    print(randomaction + randomsports + " against " + randomanimals)
+rando_sentence()
+
+
 print(f"Can you believe it {user_name}!")
+
+# ask the user if they would like another sentence
+# If yes another is generated if no the code says bye
+
+sec_senten = input(f"Can i tell you something else {user_name}, yes or no?\n")
+if sec_senten == "yes":
+    print("Great!")
+    rando_sentence()
+    print(f"That surprised me, thanks for chatting, {user_name} bye!")
+elif sec_senten == "no":
+    print(f"ok {user_name} i'll catch you later ")
+else:
+    print("Please enter yes or no")
+    print("Hit run programme to go back to the start")
