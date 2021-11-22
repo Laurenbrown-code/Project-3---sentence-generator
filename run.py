@@ -2,7 +2,7 @@ import random
 # The import random will generate the random sentences
 # the user will be asked to input their name and a message will appear
 
-user_name = input("What is your name?")
+user_name = input("What is your name?\n")
 print(f"Hello {user_name}, you won't believe what i've just seen")
 
 # The following will be used to generate the random sentence
